@@ -1,0 +1,513 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+header{
+ display: flex;
+ align-items: center;
+ justify-content: flex-end;
+ position: relative;
+ background-color: white;
+}
+
+main{
+    position: relative;
+}
+
+footer{
+    background-color: white;
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.bgvid{
+    width: 600;
+    min-width: 100%;
+    min-height: 100%;
+    position: fixed;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+}
+
+form{
+    padding: 10px;
+}
+
+article{
+    position: relative;
+}
+
+section{
+    margin-bottom: 50px;
+}
+
+.logo{
+    height: 80px;
+    padding: 10px;
+    margin-right: auto;
+}
+
+.navbar{
+    list-style: none;
+}
+
+.navbar li{
+    color: white;
+    padding: 15px;
+    display: inline-block;
+    font-family: 'Work Sans';
+    font-size: 20px;
+}
+
+.navbar li:hover{
+    background-color: grey;
+    padding: 15px;
+}
+
+.search{
+    width: 35px;
+    height: auto;
+}
+
+.searchbar{
+    height:35px;
+    float: left;
+    padding-left: 10px;
+    
+}
+
+.topimage{
+    height: 60%;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    background-image: url(images/top.jpg);
+    background-size: cover;
+}
+
+
+
+.intro{
+    background-color: white;
+    opacity: 0.8;
+    height:200px;
+    width:1200px;
+    display: flex;
+    margin: auto;
+    font-family: 'Work Sans';
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+    box-shadow: 5px 5px #888888;
+    padding: 10px 10px 10px;
+    
+}
+
+.center{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.left{
+    width: 500px;
+    height: 950px;
+    background-image: url("images/left.jpg");
+    background-size: cover;
+    margin-right: 50px;
+}
+
+.left:hover{
+    box-shadow: 5px 5px white;
+}
+
+.right1{
+    height: 450px;
+    width: 500px;
+    background-image: url("images/right1.jpg");
+    background-size: cover;
+    margin-bottom: 50px;
+    
+}
+
+.right1:hover{
+    box-shadow: 5px 5px white;
+}
+
+.right2{
+    height: 450px;
+    width: 500px;
+    background-image: url("images/right2.jpg");
+    background-size: cover;
+    font-family: Lobster;
+}
+
+.right2:hover{
+    box-shadow: 5px 5px white;
+}
+
+.icon{
+    height: 45px;
+    width: 45px;
+
+}
+
+.socialmedia{
+    list-style: none;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+.socialmedia li{
+    padding: 10px;
+    display: inline-block;
+}
+
+#search{
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 5px #888888;
+    margin-right: 10px;
+}
+
+.button{
+    display:block;
+    text-align: center;
+}
+
+.CTA{
+    border: none;
+    border-radius: 3em;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    display:inline-block;
+    font-size:2em;
+    padding: 1em 2em;
+    width: auto;
+    background-color: rgb(0, 0, 0, 0.9);
+    margin-top: 80px;
+    color: white;
+    font-family: Lobster;
+}
+
+.CTA:hover{
+    background-color: rgba(0, 0, 0, 0);
+    color: black;
+}
+
+.desc{
+    background-color:rgba(0, 0, 0, 0.5);
+    font-family: Lobster;
+    font-size: 35px;
+    color: white;
+    bottom: 0px;
+    position: absolute;
+    text-align: center;
+}
+
+.desc2{
+    background-color:rgba(0, 0, 0, 0.8);
+    font-family: Lobster;
+    font-size: 50px;
+    color: white;
+    bottom: 0px;
+    position: absolute;
+    text-align: center;
+}
+
+.footerbar{
+    list-style: none;
+    margin-left: 50px;
+}
+
+.footerbar li{
+    color: white;
+    padding: 0px 15px;
+    display: inline-block;
+    font-family: 'Work Sans';
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+
+}
+
+.where{
+    margin:30px;
+}
+
+.where > p{
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.where > a {
+    color: white;
+    display: inline
+}
+
+.middle {
+    margin-left: 15%;
+    margin-right: 15%;
+    
+}
+
+.offers{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 170px;
+}
+
+.offers > a{
+    background-color: white;
+    height: 800px;
+    width: 50%;
+    margin: 20px;
+    border-radius: 10px;
+    background-size: cover;
+}
+
+.offers > a:hover{
+    box-shadow: 5px 5px white;
+}
+
+.offer1{
+    background-image: url(images/offer1.jpg);
+}
+
+.offer2{
+    background-image: url(images/offer2.jpg);
+}
+
+.offer3{
+    background-image: url(images/offer3.jpg);
+}
+
+.middle > h2{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    margin: 80px;
+}
+
+.locations{
+    display: flex;
+}
+
+.locations > a{
+    height: 250px;
+    width: 22%;
+    margin: 50px;
+}
+
+
+.locations > a > p{
+   font-size: 40px;
+   text-align: center;
+   color: white;
+}
+
+.locations > a > article{
+    clip-path: circle(28.2% at 50% 50%);
+    transition: 1s;
+}
+
+.locations > a > article:hover{
+    clip-path: circle(70.7% at 50% 50%);
+}
+
+.loc1{ 
+    height: 300px;
+    width: 100%;
+    background-image: url("images/tokyo.jpg");
+    background-size: cover;
+}
+
+.loc2{
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-image: url(images/china.jpg);
+}
+
+.loc3{
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-image: url(images/ireland.jpg);
+}
+
+.loc4{
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-image: url(images/moscow.jpg);
+}
+
+.loc5{
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-image: url(images/paris.jpg);
+}
+
+.loc6{
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-image: url(images/tajmahal.jpg);
+}
+
+.loc7{
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-image: url(images/sydney.jpg);
+}
+
+.loc8{
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-image: url(images/egypt1.jpg);
+}
+
+
+.topimageegypt{
+    height: 84%;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(images/egyptbig.jpg);
+    background-size: cover;
+    position: relative;
+    
+}
+
+.topimageegypt:hover{
+    animation: imagescroll 10s infinite;  
+}
+
+@keyframes imagescroll{
+    0%{
+        background-image: url(images/egyptbig.jpg);
+    }
+
+    50%{
+        background-image: url(images/egyptbig2.jpg)
+    }
+
+    100%{
+        background-image: url(images/egyptbig.jpg);
+    }
+}
+
+
+h1{
+    font-size: 80px;
+    color: wheat;
+    text-align: center;
+    text-shadow: 3px 3px 5px rgb(119, 76, 27);
+    padding-top: 70px;
+}
+
+.book{
+    border: none;
+    border-radius: 3em;
+    box-shadow: 1px 1px 1px rgb(255, 255, 255);
+    display:inline-block;
+    font-size:2em;
+    padding: 1em 2em;
+    width: 600px;
+    background-color: rgba(255, 255, 255, 0.9);
+    margin: 80px;
+    color: black;
+    font-family: Lobster;
+}
+
+.book:hover{
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+}
+
+.egyptintro{
+    background-color: white;
+    opacity: 0.8;
+    height:200px;
+    width:1200px;
+    display: flex;
+    margin: auto;
+    font-family: 'Work Sans';
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+    box-shadow: 5px 5px #888888;
+    padding: 10px 10px 10px 10px;
+    
+}
+
+.egyptvid{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.egyptinfo{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 170px;
+}
+
+.egyptinfo > article{
+    background-color: white;
+    height: 200px; 
+    width: 100%;
+    margin-bottom: 50px;
+    clip-path: polygon(0 0, 30% 0, 30% 100%, 0% 100%);
+    transition: 1s;
+}
+
+.egyptinfo > article:hover{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.e1{
+    background-image: url(images/egypt1.jpg);
+    background-size: cover;
+}
+
+.e2{
+    background-image: url(images/egypt2.jpg);
+    background-size: cover;
+}
+
+.e3{
+    background-image: url(images/egypt3.jpg);
+    background-size: cover;
+}
+
+.e4{
+    background-image: url(images/egypt4.jpg);
+    background-size: cover;
+}
